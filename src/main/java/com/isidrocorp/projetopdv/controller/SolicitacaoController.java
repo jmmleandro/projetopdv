@@ -64,7 +64,6 @@ public class SolicitacaoController {
 			else {
 				return ResponseEntity.notFound().build();
 			}
-			
 		}
 		catch(Exception ex) {
 			return ResponseEntity.badRequest().build();
